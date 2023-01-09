@@ -9,26 +9,26 @@
 <body>
 	<!-- the entire body must be written by student -->
 
-	<form method="get">
+	<form method="post">
 		<label for="name">Name</label>
 		<input id="name" value="Name" placeholder="Name" required><br>
 		<label for="email">Email</label>
-		<input id="email" value="email" placeholder="Email"required><br>
+		<input id="email" value="email" placeholder="Email" required><br>
 		<label for="male">Male</label>
-		<input type="radio"  name="gender">
+		<input type="radio" name="gender" value="male">
 		<label for="female">Female</label>
-		<input type="radio" name="gender"><br>
+		<input type="radio" name="gender" value="Female"><br>
 		<label for="cars">cars</label>
 		<select id="cars">
 			<option>BMW</option>
 			<option>Audi</option>
 			<option>Mercedez</option>
 		</select><br>
-		<label for="Car Age">Car Age</label>
+		<label for="carage">Car Age</label>
 		<input id="carage" type="date" value="Car Age" required><br>
-		<label id="dop" for="Date of Purchase(dop)">Date of Purchase(dop)</label>
+		<label id="dop" for="dop">Date of Purchase(dop)</label>
 		<input type="date" value="Date of Purchase(dop)" required><br>
-		<label for="Password">Password</label>
+		<label for="password">Password</label>
 		<input type="password" id="password" value="Password" placeholder="Password" required><br>
 		<button type="submit">Submit</button>
 	</form>
